@@ -5,12 +5,12 @@ import horror from "../data/horror.json";
 import romance from "../data/romance.json";
 import scifi from "../data/scifi.json";
 
-const AllTheBooks = (props) => (
+const AllTheBooks = () => (
   <Row>
     {" "}
     <h3 className="text-white display-2 mb-4">Fantasy</h3>
     {fantasy.map((book) => (
-      <Col key={book.asin} lg={2} className="mb-5">
+      <Col key={book.asin} xs={12} md={4} className="mb-5">
         <Card className="mb-4 h-100 text-white" bg="dark">
           <Card.Img variant="top" src={book.img} className="img-fluid object-fit-cover" style={{ height: "400px" }} />
           <Card.Body bg>

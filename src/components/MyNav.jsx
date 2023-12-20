@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 const MyNav = () => (
   <Navbar expand="lg" bg="dark" data-bs-theme="dark">
-    <Container>
+    <Container fluid>
       <Navbar.Brand href="#home">My Library</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
